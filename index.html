@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>User Search</title>
+</head>
+<body>
+    <nav class="navigation">
+        <i class="fab fa-github"></i>
+        <input type='text' id='username' class='username' />
+
+        <ul class="navigation__options">
+            <li>Pull Request</li>
+            <li>Issues</li>
+            <li>Gist</li>
+        </ul>
+    </nav>
+
+<div class="full-container">
+        <aside class="left" >
+            <div class="left__photo">
+                <img class="left__photo__bigImage" src="./images/noprofile.jpg" />
+            </div>
+            <div class="left__user">
+                <h3 class="left__complete-name">XXXXXX</h3>
+                <p class="left__user-github">XXXXX</p>
+            </div>
+            <button class="left__button">Follow</button>
+            <p class="left__reportUser">Block or report user</p>
+            <h4 class="left__workplace">XXXXX</h4>
+            <p class="left__location">XXXXX, XXXX</p>
+            <a class="left__email" href="">xxxxx@gmail.com</a>
+            <a class="left__web" href="">www.xxxxx.com</a>
+        </aside>
+
+        <div class="repoList">
+
+          <!-- repos info goes here -->
+
+            <article class="repoList__container">
+                <h3 class="repoList__container__title">xxxxxx</h3>
+                <p class="repoList__container__description">xxxx</p>
+                <div class="repoList__container__details">
+                    <p class="repoList__container__details__language">xxx</p>
+                    <p class="repoList__container__details__forks">xxx</p>
+                    <p class="repoList__container__details__date">xxxx</p>
+                </div>
+            </article>
+        </div>
+    </div>
+    <script src='./secret.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

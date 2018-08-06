@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700");
+* {
+  box-sizing: content-box; }
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #6379d2; }
+
+body {
+  width: 70%;
+  margin: 20px auto;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif; }
+
+.fab {
+  font-size: 40px;
+  padding-right: 10px; }
+
+.navigation {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #dddddd;
+  border-top: 3px solid #cccccc;
+  padding: 10px; }
+  .navigation__search {
+    width: 300px; }
+    .navigation__search #username {
+      width: 250px; }
+  .navigation__options {
+    padding-left: 0;
+    font-weight: 700; }
+    .navigation__options li {
+      padding: 0 15px;
+      text-decoration: none;
+      display: inline; }
+
+.full-container {
+  display: flex;
+  flex-direction: row; }
+
+.left {
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column; }
+  .left__photo {
+    width: inherit; }
+    .left__photo__bigImage {
+      border-radius: 10px;
+      width: 100%; }
+  .left__complete-name {
+    margin: 10px 0;
+    padding: 0; }
+  .left__user-github {
+    margin: 10px 0;
+    padding: 0; }
+  .left__button {
+    width: 170px;
+    background: linear-gradient(#ffffff, #efefef);
+    font-weight: 700;
+    color: #000;
+    padding: 10px; }
+  .left__reportUser {
+    font-size: 13px;
+    color: gray;
+    padding: 10px 0;
+    border-bottom: 2px solid #dddddd;
+    margin: 2px 0; }
+  .left__workplace {
+    margin: 0; }
+  .left__location {
+    margin: 5px 0; }
+  .left__email {
+    margin-bottom: 5px;
+    font-size: 12px; }
+  .left__web {
+    font-size: 12px; }
+
+.repoList {
+  width: 100%; }
+  .repoList__container {
+    padding: 0 5px; }
+    .repoList__container__title {
+      font-size: 20px; }
+    .repoList__container__details {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #cccccc; }
+      .repoList__container__details__language {
+        padding-right: 16px;
+        margin: 0; }
+      .repoList__container__details__forks {
+        padding: 0 16px;
+        margin: 0; }
+      .repoList__container__details__date {
+        padding: 0 16px;
+        margin: 0; }
